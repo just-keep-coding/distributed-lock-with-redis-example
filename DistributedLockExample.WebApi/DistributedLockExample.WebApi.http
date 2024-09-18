@@ -1,0 +1,6 @@
+@DistributedLockExample.WebApi_HostAddress = http://localhost:5111
+
+GET {{DistributedLockExample.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

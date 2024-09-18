@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{E72C084C-AE77-45BA-B9EC-EEE47BD1ECF6}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D1C17F9C-5CEC-457B-95B5-44C7675587B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedLockExample.WebApi", "DistributedLockExample.WebApi\DistributedLockExample.WebApi.csproj", "{CE6F265B-D2B0-4516-B5D6-7A527474B2D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedLockExample.ConsoleApp", "DistributedLockExample.ConsoleApp\DistributedLockExample.ConsoleApp.csproj", "{9E60D703-ABC4-4012-9C54-F93AC5FBB5F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE6F265B-D2B0-4516-B5D6-7A527474B2D8} = {D1C17F9C-5CEC-457B-95B5-44C7675587B3}
+		{9E60D703-ABC4-4012-9C54-F93AC5FBB5F2} = {D1C17F9C-5CEC-457B-95B5-44C7675587B3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE6F265B-D2B0-4516-B5D6-7A527474B2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6F265B-D2B0-4516-B5D6-7A527474B2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6F265B-D2B0-4516-B5D6-7A527474B2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6F265B-D2B0-4516-B5D6-7A527474B2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E60D703-ABC4-4012-9C54-F93AC5FBB5F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E60D703-ABC4-4012-9C54-F93AC5FBB5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E60D703-ABC4-4012-9C54-F93AC5FBB5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E60D703-ABC4-4012-9C54-F93AC5FBB5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
